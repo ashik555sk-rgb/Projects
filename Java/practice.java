@@ -37,11 +37,12 @@ public class practice {
     // boolean b = input.hasNextInt();
     // System.out.println(b);
     // question 4
-    Scanner input = new Scanner(System.in);
-    System.out.println("Enter your Kilometers");
-    double km= input.nextDouble();
-    double miles = km*0.621371;
-    System.out.println("YOUR " + km +  " KILOMETER IS " + miles + " MILES " );
+    // Scanner input = new Scanner(System.in);
+    // System.out.println("Enter your Kilometers");
+    // double km= input.nextDouble();
+    // double miles = km*0.621371;
+    // System.out.println("YOUR " + km +  " KILOMETER IS " + miles + " MILES " );
+    
 
     }
 }
