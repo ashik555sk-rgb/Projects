@@ -5,8 +5,8 @@ public class practice2 {
         // System.out.println(a);
         int a = 6;
         int b = 5;
-        int z= a*b/a;
-        int c = a/b*a;
+        int z = a * b / a;
+        int c = a / b * a;
         System.out.println(z);
         System.out.println(c);
     }

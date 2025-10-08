@@ -6,7 +6,7 @@ public class password {
 
    public static void main(String[] var0) {
       int var2 = 1;
-      try(Scanner var1 = new Scanner(System.in)) {
+      try (Scanner var1 = new Scanner(System.in)) {
          System.out.println("ENTER YOUR PASSWORD");
          int var4 = var1.nextInt();
          if (var4 == var2) {
