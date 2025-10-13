@@ -14,9 +14,19 @@ public class loops {
         //     System.out.println(i);
         //     i++;
         // }while(i<11);
-                                //for loop;
+                              //  for loop;
+// int a= 10;
+//          for( int i = 0; i<=a; i++){
          
+    
+//             System.out.println(2*i);
+//          }
+int n = 10;
+for(int i= 0; i>n; i--){
+    System.out.println(i);
+}
+}
     
     }
     
-}
+
