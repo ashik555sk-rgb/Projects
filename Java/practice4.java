@@ -25,12 +25,23 @@ public class practice4 {
 //     System.out.printf("%d x %d = %d\n", n ,i,n*i);
     
 // }
+// System.out.print("ENTER YOUR NUMBER: ");
+// int n = input.nextInt();
+// for (int i = 10; i>=1; i--){
+//     System.out.printf("%d x %d = %d\n", n ,i,n*i);
+    
+// }
+// factorial of anumber
 System.out.print("ENTER YOUR NUMBER: ");
 int n = input.nextInt();
-for (int i = 10; i>=1; i--){
-    System.out.printf("%d x %d = %d\n", n ,i,n*i);
-    
+int i = 1;
+int factorial = 1;
+while(i<=n){
+    factorial *= i;
+    i++;
+   
+    System.out.println(factorial);
 }
-
+}
     }
-}
+
