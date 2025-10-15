@@ -18,7 +18,9 @@ if( count==2){
 }
 else{
     System.out.println("NOT PRIME");
+
 }
+input.close();
     }
     
 } 

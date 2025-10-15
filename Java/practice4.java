@@ -42,6 +42,7 @@ while(i<=n){
    
     System.out.println(factorial);
 }
+input.close();
 }
     }
 

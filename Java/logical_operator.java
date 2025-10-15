@@ -28,6 +28,7 @@ public class logical_operator {
     boolean b = true;
     System.out.println(!a);
     System.out.println(!b);
+    input.close();
     
 }
 }

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class questions {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class questions {
         // System.out.println("I am not 11");
         // }
         // QUESTION 2;
-        Scanner sc = new Scanner(System.in);
+       // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter your first Subject marks");
         // int sub1 = sc.nextInt();
         // System.out.println("Enter your second Subject marks");

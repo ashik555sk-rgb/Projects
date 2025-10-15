@@ -12,6 +12,6 @@ public class if_else {
         else{
             System.out.println("YOUR ARE NOT ELEGIBLE FOR Driving");
         }
-
+input.close();
     }
 }
