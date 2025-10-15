@@ -57,10 +57,21 @@ public class array_questions {
             // }
             // question 5 reverse an array
             int []arr = {1,2,3,4,5,6,7};
-            for(int i = arr.length - 1; i >= 0; i--){
-                System.out.println(arr[i]);
+            // for(int i = arr.length - 1; i >= 0; i--){
+            //     System.out.println(arr[i]);
+                //swap of array
+                int l = arr.length;
+                int n = Math.floorDiv(l, 2);
+                int temp = 0;
+                for (int i =0;  i<n; i++)
+            {
+                temp = arr[i];
+                arr[i] =arr[l-1-i];
+                arr[l-1-i]= temp;
+            }
+              for(int element :arr){
+                System.out.print(element+" ");
+              }
             }
         }
-    }
     
-
