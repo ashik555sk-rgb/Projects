@@ -20,7 +20,7 @@ else{
     System.out.println("NOT PRIME");
 
 }
-input.close();
+input.close(); //memory leak prevention 
     }
     
 } 

@@ -3,11 +3,15 @@ public class methods {
     static int cal(int x,int y){
         int z;
         if (x>y){
-           int  z = x+  y;
+           z = x + y;
         
         }
+        else if(x==y){
+            z= x/y;
+
+        }
         else {
-            z=x*y;
+            z = x * y;
 
         }
 return z;
@@ -20,5 +24,8 @@ return z;
     int b = sc.nextInt();
     int result = cal(a, b);
     System.out.println(result);
+
+    sc.close();
 }
+
 }
