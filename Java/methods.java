@@ -23,6 +23,9 @@ return z;
         System.out.print(" Enter The value of b: ");
     int b = sc.nextInt();
     int result = cal(a, b);
+     // without static
+       // methods obj = new methods();
+        //int result = obj.cal(a, b);
     System.out.println(result);
 
     sc.close();
