@@ -1,20 +1,19 @@
 public class recursion {
-    static int factorial(int n){
-        if(n==0 || n==1){
+    static int factorial(int n) {
+        if (n == 0 || n == 1) {
             return 1;
-        }
-        else{
-            return n*factorial(n-1);
+        } else {
+            return n * factorial(n - 1);
         }
     }
-//Ititrative method
-    static int fac(int a){
-        if (a==0 || a==1){
+
+    // Ititrative method
+    static int fac(int a) {
+        if (a == 0 || a == 1) {
             return 1;
-        }
-        else{
+        } else {
             int product = 1;
-            for(int i =1;i<=a;i++){
+            for (int i = 1; i <= a; i++) {
                 product *= i;
             }
             return product;
@@ -25,5 +24,5 @@ public class recursion {
         System.out.println(factorial(5));
         System.out.println(fac(6));
     }
-    
+
 }
