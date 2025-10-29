@@ -79,8 +79,9 @@ public class array_questions {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
-                System.out.println("maxx element is :" + max);
+                
             }
         }
+        System.out.println("maxx element is :" + max);
     }
 }
